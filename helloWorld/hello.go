@@ -18,6 +18,7 @@ func main() {
 		}
 	}
 	bar()
+	test()
 }
 
 func foo() {
@@ -26,4 +27,8 @@ func foo() {
 
 func bar() {
 	fmt.Println("and then we exited...")
+}
+
+func test() {
+	fmt.Println("This is not the end")
 }
