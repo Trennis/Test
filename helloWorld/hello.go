@@ -10,6 +10,8 @@ func main() {
 	foo()
 	fmt.Println("something more")
 
+	fmt.Println("Some new thing")
+
 	for i := 0; i < 100; i++ {
 		if i%3 == 0 {
 			fmt.Println(i)
