@@ -22,6 +22,6 @@ func foo() {
 	fmt.Println("Hello, I am in FOO")
 }
 
-func bar()  {
+func bar() {
 	fmt.Println("and then we exited...")
 }
