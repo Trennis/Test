@@ -9,7 +9,7 @@ func main() {
 	//fmt.Println(err)
 	foo()
 	fmt.Println("something more")
-
+	fmt.Println("new windows line")
 	fmt.Println("Some new thing")
 
 	for i := 0; i < 100; i++ {
