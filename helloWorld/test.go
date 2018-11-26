@@ -32,4 +32,9 @@ func main() {
 
 	fmt.Println(t.i, t.f)
 	fmt.Println(t)
+	fmt.Println("*********************")
+	fmt.Printf("%#v\n%+v\n%v", t, t, t)
+	fmt.Println("*********************")
+	fmt.Printf("%#v\n%+v\n%v\t%T", y, y, y, y)
+
 }
