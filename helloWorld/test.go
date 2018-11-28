@@ -1,30 +1,35 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
-var xyz int
-var zyx = 1
+var x = 10
+var z int
 
 func main() {
-
-	fmt.Println("xyz=", xyz)
-	fmt.Print("zyx=", zyx)
-	ggg := 3
-	fmt.Println("\nFirst ggg=", ggg)
-
-	for ggg = 1; ggg < 20; ggg++ {
-
-		fmt.Println(ggg)
+	type T struct {
+		i    int
+		f    float64
+		next *T
 	}
+	for i := 0; i < 100; i++ {
+		if i%5 == 0 {
+			fmt.Println(i)
 
-	fmt.Println("")
-	foo2()
-	foo()
-}
+		}
+	}
+	y := 20
+	fmt.Println("x=", x)
+	fmt.Println("y=", y)
+	fmt.Println("x+y=", x+y)
+	fmt.Println("z", z)
+	fmt.Println("z+x+y=", z+x+y)
+	var t T
 
-func foo2() {
+	t.i = 1
+	t.f = 2.5
 
-	fmt.Println("Foo says xyz=", xyz+10)
-	fmt.Println("Foo says zyx=", zyx-5)
-
+	fmt.Println(t.i, t.f)
+	fmt.Println(t)
 }
