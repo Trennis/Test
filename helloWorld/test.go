@@ -27,7 +27,7 @@ func main() {
 	fmt.Println("z+x+y=", z+x+y)
 	var t T
 
-	t.i = 1
+	t.i = 10
 	t.f = 2.5
 
 	fmt.Println(t.i, t.f)
@@ -35,6 +35,7 @@ func main() {
 	fmt.Println("*********************")
 	fmt.Printf("%#v\n%+v\n%v", t, t, t)
 	fmt.Println("*********************")
+	fmt.Printf("%#v\n%+v\n%v\t%T", y, y, y, y)
 	fmt.Printf("%#v\n%+v\n%v\t%T", y, y, y, y)
 
 }
