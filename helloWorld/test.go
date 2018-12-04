@@ -13,20 +13,21 @@ func main() {
 		f    float64
 		next *T
 	}
-	for i := 0; i < 100; i++ {
-		if i%5 == 0 {
-			fmt.Println(i)
+	/*
+		for i := 0; i < 100; i++ {
+			if i%5 == 0 {
+				fmt.Println(i)
 
+			}
 		}
-	}
-	y := 20
-	fmt.Println("x=", x)
-	fmt.Println("y=", y)
-	fmt.Println("x+y=", x+y)
-	fmt.Println("z", z)
-	fmt.Println("z+x+y=", z+x+y)
-	var t T
+	*/y := 20 /*
+		fmt.Println("x=", x)
+		fmt.Println("y=", y)
+		fmt.Println("x+y=", x+y)
+		fmt.Println("z", z)
+		fmt.Println("z+x+y=", z+x+y)
 
+	*/var t T
 	t.i = 10
 	t.f = 2.5
 
@@ -35,7 +36,6 @@ func main() {
 	fmt.Println("*********************")
 	fmt.Printf("%#v\n%+v\n%v", t, t, t)
 	fmt.Println("*********************")
-	fmt.Printf("%#v\n%+v\n%v\t%T", y, y, y, y)
-	fmt.Printf("%#v\n%+v\n%v\t%T", y, y, y, y)
+	fmt.Printf("%#v\t%+v\t%v\t%T", y, y, y, y)
 
 }
