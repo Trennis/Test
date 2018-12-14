@@ -9,9 +9,8 @@ var z int
 
 func main() {
 	type T struct {
-		i    int
-		f    float64
-		next *T
+		i int
+		f float64
 	}
 	/*
 		for i := 0; i < 100; i++ {
@@ -33,9 +32,9 @@ func main() {
 
 	fmt.Println(t.i, t.f)
 	fmt.Println(t)
-	fmt.Println("*********************")
-	fmt.Printf("%#v\n%+v\n%v", t, t, t)
-	fmt.Println("*********************")
-	fmt.Printf("%#v\t%+v\t%v\t%T", y, y, y, y)
+	fmt.Println("*********************\n1.\t")
+	fmt.Printf("%#v\n%+v\n%v\n%T\n", t, t, t, t)
+	fmt.Println("*********************\n2.\t")
+	fmt.Printf("%#v\t%+v\t%v\t%T\n", y, y, y, y)
 
 }
