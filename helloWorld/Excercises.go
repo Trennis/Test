@@ -11,7 +11,7 @@ func main() {
 
 	fmt.Printf("%T\n", x)
 
-	x = 42
+	x = 43
 	fmt.Println(x)
 	fmt.Printf("%#v", x)
 
